@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AGK Core">
+      <UniqueIdentifier>{9010820d-43b6-4df7-bca8-eced80e019bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp">
+      <Filter>AGK Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoreForApp.h">
+      <Filter>AGK Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="template.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>App</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="template.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="template.rc" />
+  </ItemGroup>
+</Project>
