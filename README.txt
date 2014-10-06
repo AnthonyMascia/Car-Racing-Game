@@ -1,24 +1,30 @@
-This document containes all the information you should need to begin developing. 
-For this project we are using the AppGameKit to develop a racing game. 
+Unnecessary Vehicle Avoidance Training (UVAT)
+=============================================
 
-# Tools #
-#########
+Final group project for our Software Engineering class. 
 
-1. AppGameKit (http://files.thegamecreators.com/agk/AppGameKitTrial.zip)
-2. Microsoft Visual Studio (You could probably use other editors but MS08 
-   works best and i dont think AGK works on MAC)
-3. BitBucket (Issue Tracking, Version Control, and peer reviewing) 
-
-# Set up the development environment #
-######################################
-
-1. Download the AGK installer 
-   (http://files.thegamecreators.com/agk/AppGameKitTrial.zip)
-   (If you still have it installed from Game Dev class then you can skip to step 3)
-
-2. Run the installer and change the install path to a distinct directory for our project 
-
-3. Once you have AGK installed navigate the AGK files to the templates directory
-   (\IDE\templates)
-
-4. Clone the project files into this directory and you can begin working.
+<center>
+  <h2>Title Screen</h2>
+  
+  ![IntroScreen](https://i.imgur.com/fB3essS.png)
+  
+  <b><h2>Choose Track Type</b></h2>
+  
+  ![TrackType](https://i.imgur.com/VEwiAp6.pngg)
+  
+  <h2>Choose Car Color</h2>
+  
+  ![CarColor](https://i.imgur.com/NF5M3gV.png)
+  
+  <h2>Choose Car Type</h2>
+  
+  ![CarType](https://i.imgur.com/MFP25Gn.png)
+  
+  <h2>Loop Track In Action</h2>
+  
+  ![CoinBox](https://i.imgur.com/Aul3RSb.png)
+  
+  <h2>Game Over</h2>
+  
+  ![Peach](https://i.imgur.com/EzZonJq.png)
+</center>
